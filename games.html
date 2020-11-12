@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Games</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+<body>
+
+  <div class="introduction">
+    <a href="https://lucencies.com/"><- (back to lucencies.com)</a><br><br>
+    A slightly organized list of tags. <br><br>
+
+    I really wanted a page with a sortable table, but I couldn't make one on Wordpress, so I took matters into my own hands and made this page. (Last updated on 10/29/20).
+    <p>
+    	<button onclick="sortByName()">Sort By Name</button>
+      <button onclick="sortByPosts()">Sort By Posts</button>
+    </p>
+
+    <p>
+      Skip to:<br>
+  	  Video Games -- Gaming Topics -- Board Games -- Tabletop RPGs
+    </p>
+  </div>
+
+  <div class="tableHead">VIDEO GAMES</div>
+  <div id="videoGamesTable"></div>
+
+  <div class="tableHead">BOARD GAMES</div>
+  <div id="boardGamesTable"></div>
+
+  <div class="tableHead">TABLETOP RPGS</div>
+  <div id="tabletopRpgsTable"></div>
+
+</body>
+
+<script src="sortableTable.js"></script>
+<script src="games.js"></script>
+
+</html>

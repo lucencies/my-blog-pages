@@ -21,16 +21,5 @@ function sortTable(tags, col) {
       return 0
     });
   }
-  else if (col == "TYPE") {
-    tags.sort(function(x, y) {
-      if (x.type < y.type) {
-        return -1
-      }
-      if (x.type > y.type) {
-        return 1
-      }
-      return 0
-    });
-  }
   return tags
 }
