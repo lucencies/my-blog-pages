@@ -3,6 +3,8 @@
   <head>
     <title>Games</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato&display=swap">
   </head>
 
 <body>
@@ -11,7 +13,7 @@
     <a href="https://lucencies.com/"><- (back to lucencies.com)</a><br><br>
     A slightly organized list of tags. <br><br>
 
-    I really wanted a page with a sortable table, but I couldn't make one on Wordpress, so I took matters into my own hands and made this page. (Last updated on 10/29/20).
+    I really wanted a page with a sortable table, but I couldn't make one on Wordpress, so I took matters into my own hands and made this page. (Last updated on 11/12/20).
     <p>
     	<button onclick="sortByName()">Sort By Name</button>
       <button onclick="sortByPosts()">Sort By Posts</button>
@@ -23,8 +25,11 @@
     </p>
   </div>
 
-  <div class="tableHead">VIDEO GAMES</div>
+  <div class="tableHead">VIDEO GAMES AND FRANCHISES</div>
   <div id="videoGamesTable"></div>
+
+  <div class="tableHead">GAMING TOPICS</div>
+  <div id="gamingTopicsTable"></div>
 
   <div class="tableHead">BOARD GAMES</div>
   <div id="boardGamesTable"></div>
@@ -34,7 +39,7 @@
 
 </body>
 
-<script src="sortableTable.js"></script>
+<script src="sortTable.js"></script>
 <script src="games.js"></script>
 
 </html>
