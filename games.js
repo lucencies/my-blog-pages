@@ -74,7 +74,7 @@ let GAMING_TOPICS = [
     {name: 'Xbox', posts: 1}
 ];
 
-let BOARD_GAMES = [
+let TABLETOP = [
     {name: 'Blades in the Dark', posts: 1},
     {name: 'Flip Ships', posts: 1},
     {name: 'Powered by the Apocalypse', posts: 1},
