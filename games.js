@@ -38,8 +38,8 @@ let VIDEO_GAMES = [
     {name: 'Dandara', posts: 1},
     {name: 'Devil May Cry', posts: 2},
     {name: 'Disco Elysium', posts: 1},
-    {name: 'Dishonored', posts: 2},
     {name: 'Disgaea', posts: 1},
+    {name: 'Dishonored', posts: 2},
     {name: 'Final Fantasy', posts: 4},
     {name: 'Fire Emblem', posts: 4},
     {name: 'FTL: Faster Than Light', posts: 1, link: 'ftl'},
@@ -99,7 +99,6 @@ function sortByName() {
 function sortByPosts() {
     VIDEO_GAMES = sortTable(VIDEO_GAMES, "POSTS");
     GAMING_TOPICS = sortTable(GAMING_TOPICS, "POSTS");
-    BOARD_GAMES = sortTable(BOARD_GAMES, "POSTS");
     TABLETOP = sortTable(TABLETOP, "POSTS");
     buildAllTables();
 }
