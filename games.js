@@ -29,6 +29,7 @@ function buildTable(where, tags) {
 }
 
 let VIDEO_GAMES = [
+    {name: 'Ace Attorney', posts: 1},
     {name: 'Animal Crossing', posts: 2},
     {name: 'Baba Is You', posts: 2},
     {name: 'Bloodstained', posts: 3},
@@ -60,11 +61,13 @@ let VIDEO_GAMES = [
     {name: 'The Legend of Zelda', posts: 2},
     {name: 'The Outer Worlds', posts: 1},
     {name: 'Timespinner', posts: 1},
-    {name: 'Undertale', posts: 1}
+    {name: 'Undertale', posts: 1},
+    {name: 'Yakuza', posts: 1}
 ];
 
 let GAMING_TOPICS = [
     {name: 'Backlog', posts: 3},
+    {name: 'E3', posts: 1},
     {name: 'Metroidvania', posts: 5},
     {name: 'PlayStation', posts: 1},
     {name: 'Video Game Music', posts: 2},
@@ -72,29 +75,24 @@ let GAMING_TOPICS = [
 ];
 
 let BOARD_GAMES = [
+    {name: 'Blades in the Dark', posts: 1},
     {name: 'Flip Ships', posts: 1},
+    {name: 'Powered by the Apocalypse', posts: 1},
     {name: 'Stuffed Fables', posts: 1}
 ];
-
-let TABLETOP_RPGS = [
-    {name: 'Blades in the Dark', posts: 1},
-    {name: 'Powered by the Apocalypse', posts: 1}
-]
 
 buildAllTables()
 
 function buildAllTables() {
     buildTable("videoGamesTable", VIDEO_GAMES);
     buildTable("gamingTopicsTable", GAMING_TOPICS);
-    buildTable("boardGamesTable", BOARD_GAMES);
-    buildTable("tabletopRpgsTable", TABLETOP_RPGS);
+    buildTable("tabletopTable", TABLETOP);
 }
 
 function sortByName() {
     VIDEO_GAMES = sortTable(VIDEO_GAMES, "NAME");
     GAMING_TOPICS = sortTable(GAMING_TOPICS, "NAME");
-    BOARD_GAMES = sortTable(BOARD_GAMES, "NAME");
-    TABLETOP_RPGS = sortTable(TABLETOP_RPGS, "NAME");
+    TABLETOP = sortTable(TABLETOP, "NAME");
     buildAllTables();
 }
 
@@ -102,6 +100,6 @@ function sortByPosts() {
     VIDEO_GAMES = sortTable(VIDEO_GAMES, "POSTS");
     GAMING_TOPICS = sortTable(GAMING_TOPICS, "POSTS");
     BOARD_GAMES = sortTable(BOARD_GAMES, "POSTS");
-    TABLETOP_RPGS = sortTable(TABLETOP_RPGS, "POSTS");
+    TABLETOP = sortTable(TABLETOP, "POSTS");
     buildAllTables();
 }
