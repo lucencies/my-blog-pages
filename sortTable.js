@@ -1,10 +1,10 @@
 function sortTable(tags, col) {
   if (col == "NAME") {
     tags.sort(function(x, y) {
-      if (x.name < y.name) {
+      if (x.name.toLowerCase() < y.name.toLowerCase()) {
         return -1
       }
-      if (x.name > y.name) {
+      if (x.name.toLowerCase() > y.name.toLowerCase()) {
         return 1
       }
       return 0
