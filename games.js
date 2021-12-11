@@ -29,10 +29,11 @@ function buildTable(where, tags) {
 }
 
 let VIDEO_GAMES = [
+    {name: 'Ace Attorney', posts: 2},
     {name: 'Animal Crossing', posts: 2},
     {name: 'Baba Is You', posts: 2},
     {name: 'Bloodstained', posts: 3},
-    {name: 'Castlevania', posts: 3},
+    {name: 'Castlevania', posts: 4},
     {name: 'Celeste', posts: 2},
     {name: 'Dandara', posts: 1},
     {name: 'Devil May Cry', posts: 2},
@@ -42,17 +43,17 @@ let VIDEO_GAMES = [
     {name: 'Final Fantasy', posts: 4},
     {name: 'Fire Emblem', posts: 4},
     {name: 'FTL: Faster Than Light', posts: 1, link: 'ftl'},
-    {name: 'Genshin Impact', posts: 2},
+    {name: 'Genshin Impact', posts: 3},
     {name: 'Hades', posts: 1},
     {name: 'Hollow Knight', posts: 2},
     {name: 'Into The Breach', posts: 1},
     {name: 'MapleStory', posts: 1},
-    {name: 'Metroid', posts: 2},
+    {name: 'Metroid', posts: 3},
     {name: 'Monster Hunter', posts: 1},
     {name: 'Monster Sanctuary', posts: 1},
     {name: 'Ori and the Blind Forest', posts: 1, link: 'ori'},
     {name: 'Pokemon', posts: 3},
-    {name: 'Shin Megami Tensei <a href="https://lucencies.wordpress.com/tag/persona/">[includes Persona]</a>', posts: 4, link: 'shin megami tensei'},
+    {name: 'Shin Megami Tensei <a href="https://lucencies.wordpress.com/tag/persona/">and Persona</a>', posts: 4, link: 'shin megami tensei'},
     {name: 'Spider-Man', posts: 1, link: 'spiderman'},
     {name: 'Spiritfarer', posts: 2},
     {name: 'Stardew Valley', posts: 1},
@@ -60,12 +61,14 @@ let VIDEO_GAMES = [
     {name: 'The Legend of Zelda', posts: 2},
     {name: 'The Outer Worlds', posts: 1},
     {name: 'Timespinner', posts: 1},
-    {name: 'Undertale', posts: 1}
+    {name: 'Undertale', posts: 1},
+    {name: 'Yakuza', posts: 1}
 ];
 
 let GAMING_TOPICS = [
     {name: 'Backlog', posts: 3},
-    {name: 'Metroidvania', posts: 5},
+    {name: 'E3', posts: 1},
+    {name: 'Metroidvania', posts: 7},
     {name: 'PlayStation', posts: 1},
     {name: 'Video Game Music', posts: 2},
     {name: 'Xbox', posts: 1}
