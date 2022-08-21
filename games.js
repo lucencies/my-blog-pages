@@ -29,7 +29,7 @@ function buildTable(where, tags) {
 }
 
 let VIDEO_GAMES = [
-    {name: 'Ace Attorney', posts: 2},
+    {name: 'Ace Attorney', posts: 3},
     {name: 'Animal Crossing', posts: 2},
     {name: 'Baba Is You', posts: 2},
     {name: 'Bloodstained', posts: 3},
@@ -41,44 +41,49 @@ let VIDEO_GAMES = [
     {name: 'Disgaea', posts: 1},
     {name: 'Dishonored', posts: 2},
     {name: 'Final Fantasy', posts: 4},
-    {name: 'Fire Emblem', posts: 4},
+    {name: 'Fire Emblem', posts: 5},
     {name: 'FTL: Faster Than Light', posts: 1, link: 'ftl'},
-    {name: 'Genshin Impact', posts: 3},
-    {name: 'Hades', posts: 1},
-    {name: 'Hollow Knight', posts: 2},
+    {name: 'Genshin Impact', posts: 4},
+    {name: 'Hades', posts: 2},
+    {name: 'Hollow Knight', posts: 3},
     {name: 'Into The Breach', posts: 1},
     {name: 'MapleStory', posts: 1},
-    {name: 'Metroid', posts: 3},
+    {name: 'Metroid', posts: 4},
     {name: 'Monster Hunter', posts: 1},
     {name: 'Monster Sanctuary', posts: 1},
-    {name: 'Ori and the Blind Forest', posts: 1, link: 'ori'},
-    {name: 'Pokemon', posts: 3},
-    {name: 'Shin Megami Tensei <a href="https://lucencies.wordpress.com/tag/persona/">and Persona</a>', posts: 4, link: 'shin megami tensei'},
+    {name: 'Ori and the Blind Forest', posts: 2, link: 'ori'},
+    {name: 'Persona', posts: 4},
+    {name: 'Pokemon', posts: 5},
+    {name: 'Pyre', posts: 1},
+    {name: 'Shin Megami Tensei', posts: 2},
     {name: 'Spider-Man', posts: 1, link: 'spiderman'},
     {name: 'Spiritfarer', posts: 2},
     {name: 'Stardew Valley', posts: 1},
     {name: 'SteamWorld', posts: 1},
-    {name: 'The Legend of Zelda', posts: 2},
+    {name: 'The Legend of Zelda', posts: 3},
     {name: 'The Outer Worlds', posts: 1},
     {name: 'Timespinner', posts: 1},
     {name: 'Undertale', posts: 1},
-    {name: 'Yakuza', posts: 1}
+    {name: 'Yakuza', posts: 1},
+    {name: 'Zero Escape', posts: 1},
 ];
 
 let GAMING_TOPICS = [
     {name: 'Backlog', posts: 3},
     {name: 'E3', posts: 1},
+    {name: 'Game Jam', posts: 1},
     {name: 'Metroidvania', posts: 7},
     {name: 'PlayStation', posts: 1},
     {name: 'Video Game Music', posts: 2},
-    {name: 'Xbox', posts: 1}
+    {name: 'Xbox', posts: 1},
+    {name: '3DS', posts: 1},
 ];
 
 let TABLETOP = [
     {name: 'Blades in the Dark', posts: 1},
     {name: 'Flip Ships', posts: 1},
     {name: 'Powered by the Apocalypse', posts: 1},
-    {name: 'Stuffed Fables', posts: 1}
+    {name: 'Stuffed Fables', posts: 1},
 ];
 
 buildAllTables()
