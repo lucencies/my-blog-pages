@@ -28,8 +28,10 @@ function buildTable(where, tags) {
     document.getElementById(where).innerHTML = table;
 }
 
+// TODO: Might be worth at some point once this gets too long
+// separating this into series vs solo games like NinSheetMusic
 let VIDEO_GAMES = [
-    {name: 'Ace Attorney', posts: 3},
+    {name: 'Ace Attorney', posts: 4},
     {name: 'Animal Crossing', posts: 2},
     {name: 'Baba Is You', posts: 2},
     {name: 'Bloodstained', posts: 3},
@@ -51,20 +53,21 @@ let VIDEO_GAMES = [
     {name: 'Inscryption', posts: 1},
     {name: 'Into The Breach', posts: 1},
     {name: 'MapleStory', posts: 1},
-    {name: 'Metroid', posts: 4},
+    {name: 'Metroid', posts: 5},
     {name: 'Monster Hunter', posts: 1},
     {name: 'Monster Sanctuary', posts: 1},
+    {name: 'Murder By Numbers', posts: 1},
     {name: 'Ori and the Blind Forest', posts: 2, link: 'ori'},
     {name: 'Persona', posts: 4},
     {name: 'Pokemon', posts: 6},
     {name: 'Pyre', posts: 1},
-    {name: 'Radiant Historia', posts: 1},
+    {name: 'Radiant Historia', posts: 2},
     {name: 'Shin Megami Tensei', posts: 2},
-    {name: 'Spider-Man', posts: 1, link: 'spiderman'},
+    {name: 'Spider-Man', posts: 1},
     {name: 'Spiritfarer', posts: 2},
     {name: 'Stardew Valley', posts: 1},
     {name: 'SteamWorld', posts: 1},
-    {name: 'The Legend of Zelda', posts: 4},
+    {name: 'The Legend of Zelda', posts: 5},
     {name: 'The Outer Worlds', posts: 1},
     {name: 'Timespinner', posts: 1},
     {name: 'Undertale', posts: 1},
@@ -78,6 +81,7 @@ let GAMING_TOPICS = [
     {name: 'Game Jam', posts: 1},
     {name: 'Metroidvania', posts: 7},
     {name: 'PAX', posts: 1},
+    {name: 'Picross', posts: 1},
     {name: 'PlayStation', posts: 1},
     {name: 'Video Game Music', posts: 2},
     {name: 'Xbox', posts: 1},
